@@ -9,13 +9,14 @@ function disp_sponcer(value)
 }
 </script>
 <div class="clear"></div>
-                    
+                  
+<!--  
 <h1>Submit Developer Event Sponsorships Here (for HP Public Cloud to consider)</h1>
 
 <div class="registration-requirements">
     <p>Submit developer events here. HP Public Cloud Marketing & Developer Relations will evaluate each event and determine which events to sponsor. Consideration is based on many factors. Our goal is to determine sponsorship at least 3 months before each event. If you have any questions, email dave.nielsen AT hp. com</p>
 </div>
-
+-->
 
 <form class="fos_user_registration_register form form-horizontal" method="POST" action="addEvent.php">
     
