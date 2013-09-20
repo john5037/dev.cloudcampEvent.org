@@ -248,7 +248,7 @@ function disp_sponcer(value)
     <div class="form_row">
       <label class="form-lbl required" for="fos_user_registration_form_username">
         <div class="ss-q-title">
-         What are the sponsorship options?  <span class="required">*</span>
+         What are the sponsorship options? 
         </div>
         <div dir="ltr" class="ss-q-help ss-secondary-text">Speaking opportunities, Sponsor table, Shwag, etc.</div>
       </label>
@@ -280,7 +280,7 @@ function disp_sponcer(value)
     <div class="form_row">
       <label class="form-lbl required" for="fos_user_registration_form_username">
         <div class="ss-q-title">
-         Other details?  <span class="required">*</span>
+         Other details? 
         </div>
         <div dir="ltr" class="ss-q-help ss-secondary-text">What other details have we missed?</div>
       </label>
