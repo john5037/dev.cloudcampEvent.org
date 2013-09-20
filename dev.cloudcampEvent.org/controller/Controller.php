@@ -29,7 +29,8 @@ class Controller {
       // Here we have to save into database
       // change the date format for mysql compatable
       $_POST['event_date'] =  date('Y-m-d h:i:s',strtotime($_POST['event_date']));
-      $_POST['event_sponcership_deadline'] =  date('Y-m-d h:i:s',strtotime($_POST['event_sponcership_deadline']));
+      
+      $_POST['event_sponcership_deadline'] =  ($_POST['event_sponcership_deadline'] != '' ) ? date('Y-m-d h:i:s',strtotime($_POST['event_sponcership_deadline'])) : date('Y-m-d h:i:s');
       
       $this->model->saveEvent($_POST);
        
