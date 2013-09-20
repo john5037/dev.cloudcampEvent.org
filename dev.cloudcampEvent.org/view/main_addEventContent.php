@@ -143,8 +143,15 @@ function disp_sponcer(value)
     <div class="form_row">
       <label class="form-lbl required" for="fos_user_registration_form_username">
         <div class="ss-q-title">Years</div>
-      </label>     
-      <input type="text" class="form-txt"  name="event_hp_sponcer_years" id="event_hp_sponcer_years"> 
+      </label>
+      
+      <select name="event_hp_sponcer_years" id="event_hp_sponcer_years">     
+      <?php foreach (range(1980, date('Y')) as $number) {
+         echo "<option value='$number'>$number</option>"; 
+      }?>
+      </select>
+      
+      <!--<input type="text" class="form-txt"  name="event_hp_sponcer_years" id="event_hp_sponcer_years"> -->
     </div>   
     
     <div class="form_row">
