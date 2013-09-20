@@ -86,7 +86,7 @@ function disp_sponcer(value)
     <div class="form_row">
       <label class="form-lbl required" for="fos_user_registration_form_username">
         <div class="ss-q-title">
-        When is sponsorship deadline?   <span class="required">*</span>
+        When is sponsorship deadline?  
         </div>
         <div dir="ltr" class="ss-q-help ss-secondary-text">(If unknown, then just leave blank)</div>
       </label>
