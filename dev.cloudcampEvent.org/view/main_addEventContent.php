@@ -90,7 +90,7 @@ function disp_sponcer(value)
         </div>
         <div dir="ltr" class="ss-q-help ss-secondary-text">(If unknown, then just leave blank)</div>
       </label>
-        <input type="text" class="form-txt" required="required" name="event_sponcership_deadline" id="event_sponcership_deadline">
+        <input type="text" class="form-txt"  name="event_sponcership_deadline" id="event_sponcership_deadline">
     </div>
 
     
