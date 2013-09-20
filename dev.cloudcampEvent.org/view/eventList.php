@@ -3,7 +3,7 @@
 
   <?php foreach ($eventslist as $event) {?>	
 		<div>
-			<a href="#" target="_blank">
+			<a>
       <h3><?php echo $event['name']?></h3>
       </a>
 			<!--<p> Url:<a href="<?php echo $event['event_url']?>"> <?php echo $event['event_url']?> </a></p>-->
